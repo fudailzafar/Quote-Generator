@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import RandomQuote from "./assets/RandomQuote/RandomQuote";
+import RandomQuote from "./Components/RandomQuote/RandomQuote.jsx";
 
 function App() {
   const [count, setCount] = useState(0);
